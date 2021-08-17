@@ -22,8 +22,8 @@ def gen_graph(node_num, edge_num):
 def gen_graph_list(size):
     graph_list = list()
     for _ in range(size):
-        node_num = rand.randint(20, 60)
-        edge_num = rand.randint(10, 50)
+        node_num = rand.randint(2000, 6000)
+        edge_num = rand.randint(1000, 5000)
         graph_list.append(gen_graph(node_num, edge_num))
     return graph_list
 
